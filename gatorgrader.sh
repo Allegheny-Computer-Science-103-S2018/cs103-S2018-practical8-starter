@@ -146,22 +146,11 @@ if [ "$CHECK" = true ]; then
   # ADD ADDITIONAL CALLS TO BOTH gatorgrader.py and determine_exit_code HERE
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "CSS Gradients" --fragmentcounts 2
+                                     --checkfiles index.html --fragments "Flags of the World" --fragmentcounts 2
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "css/site.css" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "div class" --fragmentcounts 6
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "img src" --fragmentcounts 6
-  determine_exit_code $?
-  # --> GatorGrader CHECK: the repository contains at least three commits (update to current + 3)
-  python3 gatorgrader/gatorgrader.py --nowelcome --commits 11
+                                     --checkfiles index.html --fragments "country.js" --fragmentcounts 6
   determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
