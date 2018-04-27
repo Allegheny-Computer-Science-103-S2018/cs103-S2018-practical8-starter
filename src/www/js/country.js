@@ -26,6 +26,11 @@ function Country(name, iso, capital, population) {
   countries.push(new Country("Spain", "ES", "Madrid", 46505963)); // no flag added
   countries.push(new Country("United Kingdom", "GB", "London", 62348447)); // no flag added
 
+  // TODO: Make sure that you add at least five more flags and details to
+  // this JavaScript. You can modify the array directly or continue to call
+  // the countries.push method and the Country constructor. Please see the
+  // course instructor if you are not sure how to modify this JavaScript.
+
   // now loop through all this array of country objects
   // note that many web developers do not consider it a best practice
   // to modify the DOM through the document.write method. Please talk
