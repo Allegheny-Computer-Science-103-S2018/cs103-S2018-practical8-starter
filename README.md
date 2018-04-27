@@ -36,7 +36,7 @@ This assignment requires a programmer to implement a JavaScript-based web site
 like the one provided in the Extended Example that starts on page 383. Along
 with correctly connecting the provided HTML and JavaScript files, the student
 will extend the JavaScript to display details about five new countries.
-Moreover, each student will use a referenced GitHub repository to add all of the
+Moreover, each student will use an existing GitHub repository to add all of the
 remaining country flags to their web site. Additionally, you will continue to
 practice using the [HTMLHint](http://htmlhint.com/) static analysis code tool
 that can check HTML files for potential errors. The source code in the
@@ -111,9 +111,12 @@ typing `cd ..` and then continuing your work.
 In addition to making the checks that were previously mentioned in the
 introduction to this document, your final submission must meet the following
 requirements. Additionally, please make sure that your repository contains a
-screenshot of your final web site in the `images` directory.
+screenshot of your final web site in an `images` directory. Since this practical
+assignment requires independent work on the part of the student, some of the
+following checks will be verified by the instructor's inspection of your
+provided screenshot.
 
-- The `index.html` file has `Flags of the World` appear as the title and the header.
+- The `index.html` file has `Flags of the World` appear as page's title in the header.
 - The `index.html` file links to the provided `country.js` file.
 - The `country.js` file contains all of the requested source code.
 - The `src/www/img/flags` contains all of the required flag images.
