@@ -32,26 +32,19 @@ the commit logs.
 
 ## Introduction
 
-This assignment requires a programmer to implement a web site with six distinct
-boxes, each of which contain both a CSS gradient as a background and an image
-that is horizontally and vertically centered. Specifically, you will create your
-first five boxes so that they have as their background the CSS gradients given
-in Figure 6.13. Finally, your sixth box will contain as a background a CSS
-gradient that you devise and that is clearly different from those in the
-textbook. In the center of each box, which further meets the specifications
-given in the assignment sheet, you will place the provided image of the hot air
-balloon. Additionally, you will continue to practice using the
-[HTMLHint](http://htmlhint.com/) static analysis code tool that can check HTML
-files for potential errors.
-
-The source code in the `index.html` file must also pass additional tests set by
-the [GatorGrader tool](https://github.com/gkapfham/gatorgrader). GatorGrader
-will check to ensure that your HTML file contains the required source code that
-uses the `div` and `img` tags, while for instance, the CSS file features
-specifications for the required styles for the CSS gradients. GatorGrader will
-also check that you made the required number of commits to your repository. More
-details about the GatorGrader checks are included later in this document and in
-the assignment sheet.
+This assignment requires a programmer to implement a JavaScript-based web site
+like the one provided in the Extended Example that starts on page 383. Along
+with correctly connecting the provided HTML and JavaScript files, the student
+will extend the JavaScript to display details about five new countries.
+Moreover, each student will use a referenced GitHub repository to add all of the
+remaining country flags to their web site. Additionally, you will continue to
+practice using the [HTMLHint](http://htmlhint.com/) static analysis code tool
+that can check HTML files for potential errors. The source code in the
+`index.html` file must also pass additional tests set by the [GatorGrader
+tool](https://github.com/gkapfham/gatorgrader). For instance, GatorGrader will
+check to ensure that your HTML file contains the required source code that links
+it to the JavaScript. More details about the GatorGrader checks are
+included later in this document and in the assignment sheet.
 
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
@@ -118,11 +111,11 @@ introduction to this document, your final submission must meet the following
 requirements. Additionally, please make sure that your repository contains a
 screenshot of your final web site in the `images` directory.
 
-- The `index.html` file has `CSS Gradients` appear as the title and the header.
-- The `index.html` file loads the CSS rules from the file `css/site.css`.
-- The `index.html` file contains six of the fragment `div class`.
-- The `index.html` file contains six of the fragment `img src`.
-- The `site.css` contains all of the rules needed to style the boxes and image.
+- The `index.html` file has `Flags of the World` appear as the title and the header.
+- The `index.html` file links to the provided `country.js` file.
+- The `country.js` file contains all of the requested source code.
+- The `src/www/img/flags` contains all of the required flag images.
+- The `site.css` contains all of the rules needed to style the flags and data.
 - The GitHub repository must contain at minimum three new commits with
   descriptive messages.
 
