@@ -136,7 +136,6 @@ if [ "$CHECK" = true ]; then
   # NOTE: run with python3 -m due to long directory names and Linux kernel limitation
   python3 -m pip install -U pip
   python3 -m pip install -r requirements.txt
-  python3 -m nltk.downloader punkt
   cd ../||exit
   echo ""
   printf "%s\n" "${blu}... Finished configuring the GatorGrader environment${end}"
@@ -146,11 +145,11 @@ if [ "$CHECK" = true ]; then
   # ADD ADDITIONAL CALLS TO BOTH gatorgrader.py and determine_exit_code HERE
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "Flags of the World" --fragmentcounts 2
+                                     --checkfiles index.html --fragments "Flags of the World" --fragmentcounts 1
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "country.js" --fragmentcounts 6
+                                     --checkfiles index.html --fragments "country.js" --fragmentcounts 1
   determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
