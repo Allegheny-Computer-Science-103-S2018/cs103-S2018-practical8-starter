@@ -73,13 +73,15 @@ Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
 guides will help you to understand how to use both [GitHub](http://github.com)
 and [GitHub Classroom](https://classroom.github.com/). To learn more about how
 to include an emoji in an HTML file, please read the documentation for the
-[Emoji CSS library](https://afeld.github.io/emoji-css/). o learn more about
+[Emoji CSS library](https://afeld.github.io/emoji-css/). To learn more about
 Google's web fonts, please visit [Google Web Fonts](https://fonts.google.com/).
 
-To do well on this assignment, you should also review Chapters 1 through 6 of
-the course textbook, paying close attention to Section 6.1 through 6.4. Please
-see the course instructor or one of the teaching assistants or tutors if you
-have questions about any of these reading assignments.
+To do well on this assignment, you should also review Chapters 1 through 8 of
+the course textbook, paying close attention to Sections 8.1 through 8.10. Don't
+forget to review the Extended Example that starts on page 383 to see a
+screenshot of a web site that is similar to the one that you are asked to
+construct. Please see the course instructor or one of the teaching assistants or
+tutors if you have questions about any of these reading assignments.
 
 ## Commands
 
