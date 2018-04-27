@@ -18,13 +18,13 @@ function Country(name, iso, capital, population) {
   "use strict";
   // create an array of sample country objects
   var countries = [
-    new Country("Bahamas", "bs", "Nassau", 301790),
-    new Country("Canada", "ca", "Ottawa", 33679000),
-    new Country("Germany", "de", "Berlin", 81802257)
+    new Country("Bahamas", "bs", "Nassau", 301790), // flag added
+    new Country("Canada", "ca", "Ottawa", 33679000), // flag added
+    new Country("Germany", "de", "Berlin", 81802257) // no flag added
   ];
   // you can also push each new country object onto the end of the array
-  countries.push(new Country("Spain", "ES", "Madrid", 46505963));
-  countries.push(new Country("United Kingdom", "GB", "London", 62348447));
+  countries.push(new Country("Spain", "ES", "Madrid", 46505963)); // no flag added
+  countries.push(new Country("United Kingdom", "GB", "London", 62348447)); // no flag added
 
   // now loop through all this array of country objects
   // note that many web developers do not consider it a best practice
