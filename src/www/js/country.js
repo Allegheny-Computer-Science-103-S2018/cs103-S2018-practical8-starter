@@ -1,3 +1,11 @@
+// Modified from the textbook example by Gregory M. Kapfhammer
+//
+// Please refer to the following GitHub repository for country flags:
+// https://github.com/hjnilsson/country-flags
+//
+// From this directory you can download images that match the size of those provided:
+// https://github.com/hjnilsson/country-flags/tree/master/png100px
+//
 // define constructor function for Country objects
 function Country(name, iso, capital, population) {
   "use strict";
@@ -12,13 +20,16 @@ function Country(name, iso, capital, population) {
   var countries = [
     new Country("Bahamas", "bs", "Nassau", 301790),
     new Country("Canada", "ca", "Ottawa", 33679000),
-    new Country("Germany", "DE", "Berlin", 81802257)
+    new Country("Germany", "de", "Berlin", 81802257)
   ];
   // you can also push each new country object onto the end of the array
   countries.push(new Country("Spain", "ES", "Madrid", 46505963));
   countries.push(new Country("United Kingdom", "GB", "London", 62348447));
 
   // now loop through all this array of country objects
+  // note that many web developers do not consider it a best practice
+  // to modify the DOM through the document.write method. Please talk
+  // with the course instructor to learn more about this idea.
   for (var i = 0; i < countries.length; i++) {
     var c = countries[i];
     document.write("<div class='box'>");
